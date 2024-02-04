@@ -14,7 +14,7 @@
     <main>
         <img src="imagenes/Logo.png" alt="Letra a de Alura" class="logo">
         <section class="entrada">
-           <textarea type="text" class="texto" style="width: 70%; height: 540px;" placeholder="Ingrese el texto aqui">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus commodi incidunt molestiae quos aliquam eveniet repellendus consectetur fugiat. Accusantium, mollitia incidunt dignissimos vero quod provident nobis rerum aliquam sapiente. Nobis.</textarea>
+           <textarea type="text" id="texto" class="texto" placeholder="Ingrese el texto aquÍ"></textarea>
    
        
 
@@ -22,21 +22,22 @@
            <p class="notificacion"><img class="exclamacion" src="iconos/bi_exclamation-circle-fill.png" alt="">
            Solo letras minúsculas y sin acentos</p>
 
-           <button class="encriptar" type="submit">Encriptar</button>
-           <button class="descriptar" type="submit">Desencriptar</button>
+           <button class="encriptar" type="submit" onclick="encriptar();">Encriptar</button>
+           <button class="descriptar" type="submit" onclick="desencriptar();">Desencriptar</button>
         </section>
         <section class="resultado">
       
             <div class="texto-resultado">
-                <img src="imagenes/uneco.jpg" alt="muneco" class="muneco">
-                <p class="texto1">Ningún mensaje fue encontrado</p>
-                <p class="texto2">Ingresa el texto que desees encriptar o desencriptar.</p>
-
+                <img src="imagenes/uneco.jpg" alt="muneco" id ="muneco" class="muneco" >
+                <p class="texto1" id="texto1" >Ningún mensaje fue encontrado</p>
+                <p class="texto2" id="texto2" >Ingresa el texto que desees encriptar o desencriptar.</p>
+                <p class ="texto3" id="texto3" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, laboriosam, eaque iusto qui consequatur tempora dolorem repellendus saepe, quo omnis veniam cum id! Exercitationem placeat architecto nobis atque impedit dolores!</p>
+                <button id="btn-copiar" class="btn-copiar" type="submit" onclick="copiar();" >Copiar</button>
             </div>
-
       
         </section>
  
     </main>
 </body>
+    <script src="scripts/app.js"></script>
 </html>

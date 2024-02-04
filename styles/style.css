@@ -21,9 +21,12 @@ textarea {
     font-size: 24px;
     border: None;
     background: #F3F5FC;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     text-align: justify;
     font-family: "Montserrat", sans-serif;
+    width: 720px; 
+    height: 540px;
+    text-transform: lowercase;
 }
 
 textarea:hover {
@@ -31,6 +34,12 @@ textarea:hover {
     font-size: 24px;
     border: #0A3871 solid;
     
+}
+
+textarea::placeholder 
+{ 
+    text-transform: none; 
+
 }
 
 .exclamacion{
@@ -50,58 +59,63 @@ textarea:hover {
 }
 
 .encriptar {
-    width: 35%;
-    height: 70px;
+    width: 328px;
+    height: 67px;
     border-radius: 24px;
     background: #0A3871;
     color: white;
-    border-color: white;
-    margin-right: 20px;
-    border-style: solid;
+    margin-right: 50px;
     font-size: 18px;
     font-family: "Montserrat", sans-serif;
+    padding: 24px;
+    border: solid 1px #0A3871;
 
 }
 
 .descriptar {
-    width: 35%;
-    height: 70px;
+    width: 328px;
+    height: 67px;
     border-radius: 24px;
     background: #D8DFE8;
     color: #0A3871;
     font-weight: bold;
-    border-color: #0A3871;
-    margin-right: 20px;
-    border-style: solid;
+    margin-right: 50px;
     font-size: 18px;
     font-family: "Montserrat", sans-serif;
+    border: solid 1px #0A3871;
+    padding: 24px;
 
 }
 
 
 .texto-resultado{
-    width: 380px;
+    width: 400px;
     height: 770px;
     background: white;
     position: absolute;
-    left: 70%;
+    left: 60%;
     top: 5%;
     margin-top: 10px;
-    border-radius: 35px;
+    border-radius: 32px;
+    box-shadow:15px 15px 30px 12px rgba(0,0,0,0.24)
    
 }
 
+
 .muneco {
     text-align: center;
+    width: 336px;
+    height: 304px;
     padding: 20px;
-    margin-top: 40%;
+    margin-top: 30%;
 }
 
 .texto1 {
-
+    width: 380px;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
+    font-family: "Montserrat", sans-serif;
 
 }
 
@@ -110,5 +124,33 @@ textarea:hover {
     text-align: center;
     font-size: 14px;
     padding: 15px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.texto3 {
+    text-align: left;
+    font-size: 16px;
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+}
+
+.btn-copiar {
+    width: 336px;
+    height: 67px;
+    border-radius: 24px;
+    background: white;
+    color: #0A3871;
+    font-weight: bold;
+    border: solid 1px #0A3871;
+    margin: 15px 30px;
+    border-style: solid;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    bottom: 3%;
+    padding: 24px;
+
 
 }
