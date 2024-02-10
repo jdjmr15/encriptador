@@ -93,11 +93,12 @@ textarea::placeholder
     height: 770px;
     background: white;
     position: absolute;
+    right: 20%;
     left: 60%;
-    top: 5%;
+    top: 3%;
     margin-top: 10px;
     border-radius: 32px;
-    box-shadow:15px 15px 30px 12px rgba(0,0,0,0.24)
+    box-shadow:15px 15px 30px 12px rgba(0,0,0,0.24);
    
 }
 
@@ -152,5 +153,187 @@ textarea::placeholder
     bottom: 3%;
     padding: 24px;
 
+
+}
+
+footer {
+    background: #0A3871;
+    height: 50px;
+    margin: 50px 0 0 0;
+    padding: 5px;
+    font-size: 18px;
+}
+
+footer p {
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin: 15px auto;
+    font-style: italic;
+    font-weight: bold;
+    font-family:  "Cedarville Cursive";
+}
+
+@media screen and (max-width:801px){
+    .entrada {
+        width: auto;
+        margin: 0 auto<;
+        position: relative;
+        left: 5%;
+    }
+    textarea {
+        display: block;
+        color: #0A3871;
+        font-size: 24px;
+        border: None;
+        background: #F3F5FC;
+        margin: 20px 15px;
+        text-align: justify;
+        font-family: "Montserrat", sans-serif;
+        width: 80%; 
+        height: 350px;
+        text-transform: lowercase;
+    }
+    
+    textarea:hover {
+        display: block;
+        font-size: 16px;
+        border: #0A3871 solid;
+        
+    }
+    
+    textarea::placeholder 
+    { 
+        text-transform: none; 
+    
+    }
+    
+    .exclamacion{
+        width: 12px;
+        height: 12px;
+        margin: 0 15px 0 0 ;
+    
+    
+    
+    }
+    
+    .notificacion {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        color: #495057;
+        font-size: 14px;
+    
+    }
+    
+    .encriptar {
+        width: 40%;
+        height: 50px;
+        border-radius: 24px;
+        background: #0A3871;
+        color: white;
+        margin: 0 20px;
+        font-size: 14px;
+        font-family: "Montserrat", sans-serif;
+        padding: 5px;
+        border: solid 1px #0A3871;
+    
+    }
+    
+    .descriptar {
+        width: 40%;
+        height: 50px;
+        border-radius: 24px;
+        background: #D8DFE8;
+        color: #0A3871;
+        font-weight: bold;
+        margin: 0 auto;
+        font-size: 14px;
+        font-family: "Montserrat", sans-serif;
+        border: solid 1px #0A3871;
+        padding: 5px;
+        display: inline-block;
+    
+    }
+    
+    
+
+.texto-resultado{
+    width: auto;
+    height: 200px;
+    background: white;
+    position: static;
+    margin: 20px 20px;
+    border-radius: 32px;
+    box-shadow:15px 15px 30px 12px rgba(0,0,0,0.24);
+   
+}
+
+
+.muneco {
+    display: none;
+}
+
+.texto1 {
+    width: auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    position: relative;
+    top: 35%;
+
+}
+
+
+.texto2 {
+    text-align: center;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    position: relative;
+    top: 35%;
+
+}
+
+.texto3 {
+    text-align: left;
+    font-size: 12px;
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+}
+
+.btn-copiar {
+    width: 50%;
+    height: 35px;
+    border-radius: 24px;
+    background: white;
+    color: #0A3871;
+    font-weight: bold;
+    border: solid 1px #0A3871;
+    margin: 15px 20px;
+    border-style: solid;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    bottom: 3%;
+    padding: 5px;
+
+
+}
+
+footer {
+    background: #0A3871;
+    width: auto;
+    height: 50px;
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    font-family:  "Cedarville Cursive", cursive;
+}
 
 }
